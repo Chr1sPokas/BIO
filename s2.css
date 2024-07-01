@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(10, 10, 10);
+}
+.caixa-preta {
+    background-color: #000; /* Cor de fundo preta */
+    color: #fff; /* Cor do texto branco */
+    padding: 20px; /* Espaçamento interno */
+    width: 300px; /* Largura da caixa */
+    margin: 20px; /* Margem ao redor da caixa */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: block;
+}
+img {
+    border-radius: 100px; /* Valor do raio da borda */
+    display: block; /* Garante que a imagem não tenha espaços em branco abaixo */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+.tet{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-family: 'Arial';
+}
+a{
+    background-color: #292929; /* Cor de fundo preta */
+    color: #fff; /* Cor do texto branco */
+    padding: 5px; /* Espaçamento interno */
+    width: 250px; /* Largura da caixa */
+    margin: 20px; /* Margem ao redor da caixa */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 4px 8px rgba(54, 54, 54, 0.2); /* Sombra */
+    text-decoration: none;
+    margin-top: 20px;
+    display: block; /* Garante que a imagem não tenha espaços em branco abaixo */
+    font-family: 'Times New Roman';
+}
+span:hover{
+    color: rgb(0, 255, 76); /* Cor que o texto terá quando o mouse estiver em cima */
+}
